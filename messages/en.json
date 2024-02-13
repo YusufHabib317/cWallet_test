@@ -49,5 +49,10 @@
   },
   "start_button": {
     "main": "Start My Cwallet"
+  },
+
+  "hero_title": {
+    "main": "Simple, Secure & Multi-Chain",
+    "subTitle": "Securely Hold, Send, Receive, Exchange, Tip &amp; Earn 800+ Cryptocurrencies With Cwallet."
   }
 }

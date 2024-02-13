@@ -19,7 +19,7 @@ import classes from "./navbar.module.css";
 import LangSelect from "./lang-select";
 
 export default function Navbar() {
-  const matches = useMediaQuery("(min-width: 56.25em)");
+  const matches = useMediaQuery("(min-width: 64em)");
 
   const [opened, { open, close }] = useDisclosure(false);
 
@@ -40,6 +40,7 @@ export default function Navbar() {
                     <RouteItem
                       title={t_main_routes(route.title)}
                       subMenu={route.subMenu}
+                      social={route.social}
                       id={route.id}
                     />
                   </Box>

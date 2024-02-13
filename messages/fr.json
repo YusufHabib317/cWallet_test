@@ -50,5 +50,10 @@
 
   "start_button": {
     "main": "Démarrer mon Cwallet"
+  },
+
+  "hero_title": {
+    "main": "Simple, sécurisé et multi-chaînes",
+    "subTitle": "Conservez, envoyez, recevez, échangez, donnez des pourboires et des informations en toute sécurité. Gagnez plus de 800 crypto-monnaies avec Cwallet."
   }
 }

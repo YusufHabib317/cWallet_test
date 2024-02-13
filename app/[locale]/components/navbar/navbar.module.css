@@ -141,6 +141,25 @@
 .lang_item:hover {
   background-color: var(--mantine-color-gray-1);
 }
+.divider {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 1px;
+  width: 100%;
+  background-color: #ddd;
+}
+.socialItem {
+  background-color: var(--mantine-color-gray-1);
+  border-radius: 20px;
+}
+.social_Title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  color: rgb(0, 0, 0);
+  line-break: anywhere;
+}
 
 @keyframes appear {
   0% {

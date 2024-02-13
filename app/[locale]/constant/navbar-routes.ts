@@ -27,6 +27,10 @@ import Blog from "@/app/[locale]/icons/navabr-blog";
 import MediaKit from "@/app/[locale]/icons/navab-media-kit";
 import ContactUs from "@/app/[locale]/icons/navab-contact-us";
 
+import Telegram from "@/app/[locale]/icons/telegram";
+import Discord from "@/app/[locale]/icons/discord";
+import Twitter from "@/app/[locale]/icons/twitter";
+
 export const routes = [
   {
     id: 1,
@@ -216,6 +220,23 @@ export const routes = [
         description: "Manage Group with Crypto",
         icon: GroupManBot,
         isAvailable: true,
+      },
+    ],
+    social: [
+      {
+        id: 1,
+        title: "Telegram",
+        icon: Telegram,
+      },
+      {
+        id: 2,
+        title: "Discord",
+        icon: Discord,
+      },
+      {
+        id: 3,
+        title: "Twitter",
+        icon: Twitter,
       },
     ],
   },

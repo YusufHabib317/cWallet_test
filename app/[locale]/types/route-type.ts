@@ -8,4 +8,9 @@ export type RouteT = {
     icon: () => JSX.Element;
     isAvailable: boolean;
   }[];
+  social?: {
+    id: number;
+    title: string;
+    icon: () => JSX.Element;
+  }[];
 };
