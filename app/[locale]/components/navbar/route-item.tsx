@@ -8,7 +8,7 @@ import classes from "./navbar.module.css";
 import ArrowLeft from "@/app/[locale]/icons/navbar-arrow-left";
 import { useTranslations } from "next-intl";
 
-export default function Route(props: RouteT) {
+export default function RouteItem(props: RouteT) {
   const { title, subMenu } = props;
 
   const [hoveredItem, setHoveredItem] = useState<number | null>(null);

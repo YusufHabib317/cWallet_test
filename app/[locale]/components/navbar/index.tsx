@@ -10,7 +10,7 @@ import { Group, Box, Button, Modal, Stack, Divider } from "@mantine/core";
 import Close from "@/app/[locale]/icons/x-close";
 import Burger from "@/app/[locale]/icons/navab-burger";
 
-import Route from "./route";
+import RouteItem from "./route-item";
 import { routes } from "@/app/[locale]/constant/navbar-routes";
 
 import { useTranslations } from "next-intl";
@@ -37,7 +37,7 @@ export default function Navbar() {
               {routes.map((route, idx) => {
                 return (
                   <Box key={idx}>
-                    <Route
+                    <RouteItem
                       title={t_main_routes(route.title)}
                       subMenu={route.subMenu}
                       id={route.id}
