@@ -1,0 +1,53 @@
+{
+  "mainRoutes": {
+    "Wallets": "Wallets",
+    "Buy & Sell": "Buy & Sell",
+    "Tools": "Tools",
+    "Bots": "Bots",
+    "Resources": "Resources"
+  },
+  "subMenu_title": {
+    "Wallets": {
+      "Non-Custodial Wallet": "Non-Custodial Wallet",
+      "Swap": "Swap",
+      "Custodial Wallet": "Custodial Wallet",
+      "Web Wallet": "Web_Walle",
+      "Stake & Lend": "Stake & Lend"
+    },
+    "Buy & Sell": {
+      "Buy & Sell": "Buy & Sell",
+      "P2P Trading": "P2P Trading"
+    },
+    "Tools": {
+      "Tip Box": "Tip Box",
+      "Request": "Request",
+      "Airdrop Arena": "Airdrop Arena",
+      "Invoice": "Invoice",
+      "Giveaway": "Révéler",
+      "Payment Button": "Bouton de paiement",
+      "Bulk Payment": "Bulk Payment",
+      "Mobile Refills": "Mobile Refills"
+    },
+    "Bots": {
+      "Wallet Bot": "Wallet Bot",
+      "Tip & Airdrop Bot": "Tip & Airdrop Bot",
+      "Exchange Bot": "Exchange Bot",
+      "Referral Bot": "Referral Bot",
+      "Subscription Bot": "Subscription Bot",
+      "Price Alert Bot": "Price Alert Bot",
+      "DAO Bot": "DAO Bot",
+      "Group Management Bot": "Group Management Bot"
+    },
+    "Resources": {
+      "Help Center": "Help Center",
+      "FAQs": "FAQs",
+      "Blog": "Blog",
+      "Media Kit": "Media Kit",
+      "Career": "Career",
+      "Contact Us": "Contact Us"
+    }
+  },
+  "start_button": {
+    "main": "Start My Cwallet"
+  }
+}

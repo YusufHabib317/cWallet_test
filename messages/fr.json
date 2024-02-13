@@ -1,0 +1,54 @@
+{
+  "mainRoutes": {
+    "Wallets": "Portefeuilles",
+    "Buy & Sell": "Acheter vendre",
+    "Tools": "Outils",
+    "Bots": "Bots",
+    "Resources": "Resources"
+  },
+  "subMenu_title": {
+    "Portefeuilles": {
+      "Non-Custodial Wallet": "Portefeuille non dépositaire",
+      "Swap": "Échanger",
+      "Custodial Wallet": "Portefeuille de garde",
+      "Web Wallet": "Portefeuille de garde",
+      "Stake & Lend": "Miser et prêter"
+    },
+    "Acheter vendre": {
+      "Buy & Sell": "Acheter vendre",
+      "P2P Trading": "Commerce P2P"
+    },
+    "Outils": {
+      "Tip Box": "Boîte à conseils",
+      "Request": "Demande",
+      "Airdrop Arena": "Arène de largage",
+      "Invoice": "Facture",
+      "Giveaway": "Révéler",
+      "Payment Button": "Bouton de paiement",
+      "Bulk Payment": "Bouton de paiement",
+      "Mobile Refills": "Recharges mobiles"
+    },
+    "Bots": {
+      "Wallet Bot": "Bot de portefeuille",
+      "Tip & Airdrop Bot": "Astuce et robot de largage",
+      "Exchange Bot": "Bourse d'échanget",
+      "Referral Bot": "Bot de référence",
+      "Subscription Bot": "Bot d’abonnement",
+      "Price Alert Bot": "Bot d’alerte de prix",
+      "DAO Bot": "DAO Bot",
+      "Group Management Bot": "Bot de gestion de groupe"
+    },
+    "Resources": {
+      "Help Center": "Centre d'aide",
+      "FAQs": "FAQs",
+      "Blog": "Blog",
+      "Media Kit": "Dossier de presse",
+      "Career": "Carrière",
+      "Contact Us": "Contactez-nous"
+    }
+  },
+
+  "start_button": {
+    "main": "Démarrer mon Cwallet"
+  }
+}

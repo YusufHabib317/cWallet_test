@@ -1,4 +1,4 @@
-export default function Logo() {
+export default function LogoCol() {
   return (
     <svg
       width="48"
