@@ -13,7 +13,8 @@ import {
 import { notFound } from "next/navigation";
 
 export const metadata: Metadata = {
-  title: "Create CWallet Home Page",
+  title:
+    "Cwallet - Simple, Secure, Fast &amp; Flexible Crypto Wallet for All Your Needs.",
   description: "",
 };
 

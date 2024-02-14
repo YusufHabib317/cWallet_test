@@ -1,0 +1,100 @@
+.parentWrapper {
+  padding: 80px 16px 120px;
+  background-image: url("../../../../../public/images/easy-acess.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+.title {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+  letter-spacing: -0.25px;
+  text-transform: capitalize;
+  max-width: 34.75rem;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2.1875rem;
+  letter-spacing: -0.25px;
+  text-transform: capitalize;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.accesContent {
+  max-width: 1040px;
+  margin: 3.6875rem auto;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-basis: content;
+  position: relative;
+}
+.accesContent > div {
+  width: calc(100% - 1rem);
+}
+
+.accessItem {
+  padding: 1.5625rem 1.1875rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  display: flex;
+  min-height: 7.5rem;
+}
+
+.right {
+  text-align: right;
+  flex-direction: row-reverse;
+}
+
+.accessItem p {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.25px;
+  text-transform: capitalize;
+  color: rgb(0, 0, 0);
+  max-width: 21.875rem;
+  margin: 0;
+}
+.coverimg {
+  width: 50px;
+}
+.accessItem.left .coverimg {
+  margin-right: 14px;
+}
+.accessItem.right .coverimg {
+  margin-left: 14px;
+}
+
+.phoneImg {
+  width: 200px;
+  height: 400px;
+  position: absolute;
+  transform: translate(-50%, 3%);
+  left: 50%;
+}
+@media only screen and (max-width: 1024px) {
+  .title {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: rgb(18, 17, 17);
+  }
+  .description {
+    margin-bottom: 1.6875rem;
+  }
+  .accessItem {
+    align-items: center;
+    width: 50%;
+    margin: 0 auto 20px;
+  }
+}

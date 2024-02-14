@@ -149,18 +149,41 @@
   background-color: #ddd;
 }
 .socialItem {
+  position: relative;
+  transition: all 0.2s ease;
+}
+.socialItem:hover {
   background-color: var(--mantine-color-gray-1);
   border-radius: 20px;
+  cursor: pointer;
 }
 .social_Title {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 24px;
   letter-spacing: -0.25px;
   color: rgb(0, 0, 0);
   line-break: anywhere;
 }
+.arrowLeft_socialItem {
+  position: absolute;
+  top: 10px;
+  transition: all 0.2s ease;
+  transform: rotate(-90deg) translateY(+205%) translateX(-5px);
+}
 
+.socialItem:hover .arrowLeft_socialItem {
+  animation: appearSocial 0.2s;
+}
+
+@keyframes appearSocial {
+  0% {
+    transform: rotate(-90deg) translateY(130%) translateX(-5px);
+  }
+  100% {
+    transform: rotate(-90deg) translateY(+205%) translateX(-5px);
+  }
+}
 @keyframes appear {
   0% {
     transform: rotate(-90deg) translateY(-80%);

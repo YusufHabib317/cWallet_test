@@ -55,5 +55,90 @@
   "hero_title": {
     "main": "Simple, sécurisé et multi-chaînes",
     "subTitle": "Conservez, envoyez, recevez, échangez, donnez des pourboires et des informations en toute sécurité. Gagnez plus de 800 crypto-monnaies avec Cwallet."
+  },
+
+  "sec_title": {
+    "main": "Simple, sécurisé et multi-chaînes",
+    "subTitle": "Conservez, envoyez, recevez, échangez, donnez des pourboires et des informations en toute sécurité. Gagnez plus de 800 crypto-monnaies avec Cwallet.",
+    "2-Factor Authentication": "Authentification à 2 facteurs",
+    "Cloud-Based Encryption": "Cryptage basé sur le cloud",
+    "Effortless Recoverability": "Récupération sans effort",
+    "Enforce Policy": "Appliquer la politique",
+    "MPC Encryption": "Cryptage MPC",
+    "24x7 Live Support": "Assistance en direct 24h/24 et 7j/7"
+  },
+
+  "sec_access": {
+    "main": "Accès facile à la cryptographie",
+    "subTitle": "Un portefeuille pour tous vos besoins en cryptographie",
+    "Built-In Cross Chain Aggregated Exchange": "Échange agrégé inter-chaînes intégré",
+    "Buy, Sell And Earn In Minutes": "Achetez, vendez et gagnez en quelques minutes",
+    "50+ Networks & Over 800 Cryptocurrencies": "Plus de 50 réseaux et plus de 800 crypto-monnaies",
+    "Monitor Market Movements Within The App": "Surveillez les mouvements du marché dans l'application",
+    "Fast And Secure Transactions": "Transactions rapides et sécurisées",
+    "24x7 Live Support": "Assistance en direct 24h/24 et 7j/7"
+  },
+
+  "sec_combined": {
+    "main": "Le tout premier portefeuille cryptographique combinant conservation et non conservation",
+    "subTitle": "Avec Cwallet, vous bénéficierez de la sécurité et de la confidentialité des portefeuilles non dépositaires ainsi que de la commodité et de l'efficacité des portefeuilles dépositaires en un seul endroit. Vous pouvez facilement gérer et échanger plus de 800 actifs cryptographiques dans une seule application avec flexibilité, capacité et créativité.",
+    "lastTitle": "Couvrez tous vos besoins en matière de cryptographie"
+  },
+
+  "sec_crMan": {
+    "main": "Gestion ultime de la cryptographie avec notre portefeuille en ligne/Web",
+    "subTitle": "Sécurisez, gérez et échangez vos actifs cryptographiques de n'importe où, à tout moment et sur n'importe quel appareil avec Cwallet."
+  },
+  "learnMore": {
+    "main": "Apprendre encore plus"
+  },
+  "viewAll": {
+    "main": "Voir tout"
+  },
+
+  "builtIn": {
+    "title": "Le swap intégré offre le meilleur prix pour échanger des crypto-monnaies",
+    "subTitle": "Notre pool de liquidités sans fin garantit un échange instantané pour les utilisateurs sans limitation du montant de l'échange. Nous offrons les meilleurs tarifs sur tous les principaux CEX, DEX et Bridges en un simple clic !"
+  },
+  "cWalletTool": {
+    "title": "Outils intégrés de Cwallet pour la commodité de la cryptographie",
+    "subTitle": "Tous vos besoins en crypto couverts dans une seule application",
+    "more": "Plus d'outils à venir...",
+
+    "Earn continuous crypto income with Tip Box": "Gagnez des revenus cryptographiques continus avec Tip Box.",
+    "Create payment Request with just one click": "Créez une demande de paiement en un seul clic.",
+    "Crypto airdrops combined with games Earn crypto and have fun": "Des parachutages cryptographiques combinés à des jeux. Gagnez des cryptos et amusez-vous !",
+    "Create giveaway and campaigns with multiple draw modes": "Créez des cadeaux et des campagnes avec plusieurs modes de tirage.",
+    "Top up your mobile phones with crypto for 40+ countries": "Rechargez vos téléphones mobiles avec de la crypto pour plus de 40 pays.",
+    "Easy mass crypto payments with one click": "Paiements cryptographiques de masse faciles en un seul clic.",
+    "Collect payments easily with a Payment Button": "Collectez facilement les paiements avec un bouton de paiement.",
+
+    "Tip Box": "Boîte à conseils",
+    "Request": "Demande",
+    "Airdrop Arena": "Arène de largage",
+    "Giveaway": "Révéler",
+    "Mobile Refills": "Recharges mobiles",
+    "Bulk Payment": "Paiement groupé",
+    "Payment Button": "Bouton de paiement"
+  },
+  "feedBack": {
+    "title": "Vos commentaires comptent",
+    "sub": "Nous nous efforçons d'offrir à nos utilisateurs la meilleure expérience possible. Nous pensons que cela n'est possible qu'en écoutant les commentaires et les idées de ceux qui utilisent nos produits. Votre précieuse contribution peut nous aider à vous offrir les meilleures expériences utilisateur et à garantir que nos produits répondent toujours à vos besoins !",
+    "btn": "Écrivez-nous !"
+  },
+  "faq": {
+    "What_does_Cwallet": "Que signifie Cwallet combiné dépositaire et non dépositaire ?",
+    "What_are_network_fees": "Que sont les frais de réseau ?",
+    "What_if_I_accidentally": "Que se passe-t-il si j'envoie accidentellement mes actifs à une mauvaise adresse ou si je dépose des jetons qui ne sont pas répertoriés sur Cwallet ?",
+    "Will_Cwallet_charge": "Cwallet facturera-t-il des frais de service supplémentaires ?",
+
+    "Cwallet": "Cwallet est le tout premier portefeuille cryptographique dépositaire et non dépositaire combiné au sein d'une seule application. Avec Cwallet, vous bénéficiez de la sécurité et de la confidentialité des portefeuilles non dépositaires ainsi que de la commodité et de l'efficacité des portefeuilles dépositaires en un seul endroit. Un simple clic pour basculer entre le portefeuille dépositaire et le portefeuille non dépositaire pour votre commodité.",
+    "Every": "Chaque fois que vous envoyez une crypto-monnaie, de votre adresse à une autre, vous payez des frais de transaction réseau, également appelés frais de réseau. Effectuer des transactions sur les bourses nécessite également des frais pour chaque transaction « d'achat » ou de « vente ». Les frais réels que vous payez varient en fonction du réseau que vous utilisez. Par exemple, une transaction Bitcoin aura des frais différents par rapport aux transactions effectuées sur le réseau Bitcoin Cash, Ethereum ou Litecoin.",
+    "Due": "En raison de la nature décentralisée des actifs cryptographiques, ces transactions ne peuvent pas être annulées ; par conséquent, les fonds perdus ou volés ne peuvent pas être récupérés.",
+    "Besides": "Outre les frais de gaz de réseau nécessaires, toutes les autres fonctionnalités de Cwallet telles que l'envoi, la réception, l'échange, les robots et les outils ne facturent aucun frais supplémentaire. Il s’agit d’un portefeuille crypto absolument GRATUIT et disponible pour tous les détenteurs et commerçants de crypto."
+  },
+
+  "footer": {
+    "desc": "Outre les frais de gaz de réseau nécessaires, toutes les autres fonctionnalités de Cwallet telles que l'envoi, la réception, l'échange, les robots et les outils ne facturent aucun frais supplémentaire. C'est un crypto wCwallet absolument GRATUIT est un portefeuille multifonctionnel unique qui offre des fonctions centralisées et décentralisées ensemble sous une seule application ! Avec sa technologie futuriste et ses outils Cwallet conviviaux, il propose un ensemble gratuit et complet d'outils de cryptographie pour tout le monde, afin de permettre un voyage cryptographique plus rapide, plus facile et plus sûr, comblant ainsi le fossé entre le Web2.0 et le Web3.0. Il ne s'agit pas simplement d'un portefeuille pour conserver, acheter ou échanger vos actifs cryptographiques, mais d'une boîte à outils complète avec plusieurs fonctionnalités activées par des robots, telles que les pourboires et la gestion de communauté sur les réseaux sociaux, pour stimuler et soutenir l'avenir de l'économie cryptographique. Allet et disponible pour tous les détenteurs de cryptomonnaies. et les commerçants."
   }
 }

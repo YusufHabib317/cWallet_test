@@ -78,13 +78,20 @@ export default function RouteItem(props: RouteT) {
                     align={"center"}
                     justify={"center"}
                     gap={10}
-                    px={10}
+                    px={25}
+                    py={15}
                     className={classes.socialItem}
+                    onMouseEnter={() => setHoveredItem(id)}
+                    onMouseLeave={() => setHoveredItem(null)}
                   >
-                    <Box>
-                      <Icon />
-                    </Box>
+                    <Icon />
                     <Box className={classes.social_Title}>{title}</Box>
+
+                    {hoveredItem === id && (
+                      <Box className={classes.arrowLeft_socialItem}>
+                        <ArrowLeft />
+                      </Box>
+                    )}
                   </Flex>
                 );
               })}

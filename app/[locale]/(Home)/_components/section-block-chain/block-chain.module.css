@@ -1,0 +1,98 @@
+.parentWrapper {
+  background: linear-gradient(
+    130.76deg,
+    rgb(24, 25, 23) 0%,
+    rgb(48, 71, 9) 92.79%
+  );
+}
+.content {
+  padding: 80px 16px;
+  max-width: 1260px;
+  margin: 0px auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.leftSec {
+  width: 50%;
+}
+
+.leftSec h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: -0.25px;
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+}
+
+.leftSec h2 span {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  color: rgb(171, 232, 57);
+}
+.leftSec p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+  margin: 18px 0px 64px;
+}
+
+.rightSec {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  animation: 90s linear 0s infinite normal none running toUp;
+  background-image: url("../../../../../public/images/badgGroup.svg");
+  width: 390px;
+  height: 1081px;
+}
+
+@keyframes toUp {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .content {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.875rem 1rem 0px;
+  }
+  .leftSec {
+    width: 100%;
+    text-align: center;
+  }
+  .leftSec h2 {
+    font-size: 1.25rem;
+    line-height: 1.9375rem;
+  }
+  .leftSec p {
+    font-size: 1.125rem;
+    margin: 0.625rem 0px 1rem;
+  }
+  .leftSec h2 span {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .rightSec {
+    position: relative;
+    max-width: 22.5rem;
+    width: 100%;
+    background-size: contain;
+    animation: auto ease 0s 1 normal none running none;
+    height: 18.75rem;
+    background-position: center center;
+    margin: 40px auto;
+    animation: none;
+  }
+}

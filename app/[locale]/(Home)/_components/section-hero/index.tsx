@@ -18,7 +18,7 @@ export default function Hero() {
   return (
     <Box pt={90} className={classes.parentWrapper}>
       <Box className={classes.parent}>
-        {/* <Box className={classes.contentWrapper} /> */}
+        <Box className={classes.contentWrapper} />
         <Box className={classes.content}>
           <Box>
             <Box className={classes.top_section}>

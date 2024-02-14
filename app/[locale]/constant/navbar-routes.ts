@@ -224,17 +224,17 @@ export const routes = [
     ],
     social: [
       {
-        id: 1,
+        id: 9,
         title: "Telegram",
         icon: Telegram,
       },
       {
-        id: 2,
+        id: 10,
         title: "Discord",
         icon: Discord,
       },
       {
-        id: 3,
+        id: 11,
         title: "Twitter",
         icon: Twitter,
       },

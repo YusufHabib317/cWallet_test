@@ -54,5 +54,93 @@
   "hero_title": {
     "main": "Simple, Secure & Multi-Chain",
     "subTitle": "Securely Hold, Send, Receive, Exchange, Tip &amp; Earn 800+ Cryptocurrencies With Cwallet."
+  },
+
+  "sec_title": {
+    "main": "Simple, Secure & Multi-Chain",
+    "subTitle": "Securely Hold, Send, Receive, Exchange, Tip &amp; Earn 800+ Cryptocurrencies With Cwallet.",
+    "2-Factor Authentication": "2-Factor Authentication",
+    "Cloud-Based Encryption": "Cloud-Based Encryption",
+    "Effortless Recoverability": "Effortless Recoverability",
+    "Enforce Policy": "Enforce Policy",
+    "MPC Encryption": "MPC Encryption",
+    "24x7 Live Support": "24x7 Live Support"
+  },
+
+  "sec_access": {
+    "main": "Easy Access To Crypto",
+    "subTitle": "One Cwallet For All Your Crypto Needs",
+    "Built-In Cross Chain Aggregated Exchange": "Built-In Cross Chain Aggregated Exchange",
+    "Buy, Sell And Earn In Minutes": "Buy, Sell And Earn In Minutes",
+    "50+ Networks & Over 800 Cryptocurrencies": "50+ Networks & Over 800 Cryptocurrencies",
+    "Monitor Market Movements Within The App": "Monitor Market Movements Within The App",
+    "Fast And Secure Transactions": "Fast And Secure Transactions",
+    "24x7 Live Support": "24x7 Live Support"
+  },
+
+  "sec_combined": {
+    "main": "The First-Ever Combined Custodial & Non-Custodial Crypto Wallet",
+    "subTitle": "With Cwallet, you will get the security and privacy of non-custodial wallets & the convenience and efficacy of custodial wallets in one place. You can easily manage and trade 800+ crypto assets in one app with flexibility, capability, and creativity.",
+    "lastTitle": "Get All Your Crypto Needs Covered"
+  },
+
+  "sec_crMan": {
+    "main": "Ultimate Crypto Management With Our Online/ Web Wallet",
+    "subTitle": "Secure, manage and exchange your crypto assets from anywhere, anytime, any device with Cwallet."
+  },
+  "learnMore": {
+    "main": "Learn More"
+  },
+  "viewAll": {
+    "main": "View All"
+  },
+
+  "builtIn": {
+    "title": "Built-In Swap Offers Best Price To Exchange Crypto",
+    "subTitle": "Our endless liquidity pool ensures instantaneous swap for users with no limitation on the amount of exchange. We offer the best rates across all leading CEXs, DEXs, and Bridges with one simple click!"
+  },
+
+  "cWalletTool": {
+    "title": "Cwallet Built-In Tools For Crypto Convenience",
+    "subTitle": "All Your Crypto Needs Covered In One App",
+    "more": "More Tools Coming Soon...",
+
+    "Earn continuous crypto income with Tip Box": "Earn continuous crypto income with Tip Box.",
+    "Create payment Request with just one click": "Create payment Request with just one click.",
+    "Crypto airdrops combined with games Earn crypto and have fun": "Crypto airdrops combined with games. Earn crypto and have fun!",
+    "Create giveaway and campaigns with multiple draw modes": "Create giveaway and campaigns with multiple draw modes.",
+    "Top up your mobile phones with crypto for 40+ countries": "Top up your mobile phones with crypto for 40+ countries.",
+    "Easy mass crypto payments with one click": "Easy mass crypto payments with one click.",
+    "Collect payments easily with a Payment Button": "Collect payments easily with a Payment Button.",
+
+    "Tip Box": "Tip Box",
+    "Request": "Request",
+    "Airdrop Arena": "Airdrop Arena",
+    "Giveaway": "Giveaway",
+    "Mobile Refills": "Mobile Refills",
+    "Bulk Payment": "Bulk Payment",
+    "Payment Button": "Payment Button"
+  },
+
+  "feedBack": {
+    "title": "Your Feedback Matters",
+    "sub": "We strive to provide our users with the best possible experience. We believe that this is only possible through listening to feedback and ideas from those who are using our products. Your valuable input can help us provide you with the best user experiences and make sure that our products are always meeting your needs!",
+    "btn": "Write to us!"
+  },
+
+  "faq": {
+    "What_does_Cwallet": "What does Cwallet combined custodial and non-custodial mean?",
+    "What_are_network_fees": "What are network fees?",
+    "What_if_I_accidentally": "What if I accidentally send my assets to a wrong address or deposit tokens that are not listed on Cwallet?",
+    "Will_Cwallet_charge": "Will Cwallet charge any extra service fees?",
+
+    "Cwallet": "Cwallet is the first ever custodial and non-custodial crypto wallet combined within one app. With Cwallet, you get the security and privacy of non-custodial wallets & the convenience and efficacy of custodial wallets in one place. A simple click to switch between custodial wallet and non-custodial wallet for your convenience.",
+    "Every": "Every time you send any cryptocurrency, from your address to another, you incur a Network Transaction fee, also referred to as a Network fee. Making trades on exchanges also requires fees for every 'buy' or 'sell' transaction. The actual fee you pay will vary according to the network you use. For example, a Bitcoin transaction will have a different fee in comparison to transactions placed on the Bitcoin Cash, Ethereum or Litecoin network.",
+    "Due": "Due to the decentralized nature of crypto assets, such transactions cannot be reversed; therefore lost or stolen funds cannot be recovered.",
+    "Besides": "Besides the necessary network gas fees, all other features of Cwallet like send, receive, swap, bots, and tools do not charge any extra fees. It’s an absolutely FREE crypto wallet and available for all crypto holders and traders."
+  },
+
+  "footer": {
+    "desc": "Cwallet is a unique multi-functional wallet which offers centralized and decentralized functions together under one app! With its futuristic tech and user-friendly Cwallet tools, it offers a free & all-inclusive set of crypto tools for everyone, to empower a faster, easier and safer crypto journey thus bridging the gap between Web2.0 and Web3.0. It is not just a wallet to hold, buy or exchange your crypto assets but a comprehensive toolkit with multiple bot-enabled features like tipping and community management upon social networks to boost and support the future of crypto economy."
   }
 }

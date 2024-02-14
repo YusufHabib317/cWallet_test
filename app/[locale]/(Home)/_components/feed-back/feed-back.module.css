@@ -1,0 +1,54 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(170, 231, 56);
+}
+.parent {
+  max-width: 1440px;
+  width: 100%;
+  padding: 3rem 6.75rem;
+  position: relative;
+  height: 288px;
+  overflow: hidden;
+}
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  z-index: 1;
+  width: min(100%, 900px);
+}
+.contentBox h1 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 4px;
+}
+
+.contentBox p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  padding-top: 16px;
+}
+
+.bg {
+  position: absolute;
+}
+
+.bg.right {
+  top: -20px;
+  right: 0px;
+  height: 120%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .bg.right {
+    display: none;
+  }
+}

@@ -1,0 +1,153 @@
+.parentWrapped {
+  padding: 230px 16px 120px;
+  background: linear-gradient(
+    268.55deg,
+    rgb(170, 231, 56) -17.5%,
+    rgb(220, 238, 251) 72.55%
+  );
+  position: relative;
+}
+.topSec {
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  top: -100px;
+  background: linear-gradient(to top, rgb(100, 215, 253), rgb(170, 231, 56))
+    rgb(255, 255, 255);
+  box-shadow: rgba(170, 231, 56, 0.4) 0px 4px 50px;
+  border-radius: 40px;
+  padding: 5px;
+}
+.topSec_content {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  padding: 50px 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+.boxItem {
+  color: rgb(0, 0, 0);
+  text-transform: capitalize;
+  letter-spacing: -0.25px;
+  border-right: 1px dashed rgb(105, 105, 105);
+}
+.boxItem h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  margin: 0;
+}
+.boxItem p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  margin: 0;
+}
+
+.switchWalletContent {
+  max-width: 1140px;
+  margin: 50px auto;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 35px;
+  letter-spacing: -0.25px;
+  text-transform: capitalize;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 0;
+  margin-bottom: 22px;
+}
+.description {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.25px;
+  color: rgb(103, 104, 104);
+}
+.animationSec {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 64px auto 0px;
+}
+
+.leftSection .animationItem,
+.rightSection .animationItem {
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 128px;
+}
+.animationItemImg {
+  width: 280px;
+  height: 565px;
+  border: 16px solid rgb(0, 0, 0);
+  border-radius: 36px;
+  box-shadow: rgb(100, 215, 253) 0px 4px 24px,
+    rgb(100, 215, 253) 0px 4px 24px inset;
+  overflow: hidden;
+  margin: 0px auto;
+}
+.animationItemImg.right {
+  box-shadow: rgb(170, 231, 56) 0px 4px 24px,
+    rgb(170, 231, 56) 0px 4px 24px inset;
+}
+.phonePhoto {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.manTitle {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.25px;
+  text-transform: capitalize;
+  color: rgb(0, 0, 0);
+  margin-bottom: 28px;
+}
+.manTitle span {
+  font-size: 34px;
+  line-height: 32px;
+}
+.h3 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.25px;
+  text-transform: capitalize;
+  color: rgb(0, 0, 0);
+}
+.h4 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  color: rgb(7, 7, 7);
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .topSec_content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px 2.125rem;
+  }
+  .boxItem {
+    border-right: none;
+    border-bottom: 1px dashed rgb(105, 105, 105);
+    padding: 1.5625rem 0px;
+  }
+}

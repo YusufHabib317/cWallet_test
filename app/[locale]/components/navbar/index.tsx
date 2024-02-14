@@ -17,6 +17,7 @@ import { useTranslations } from "next-intl";
 
 import classes from "./navbar.module.css";
 import LangSelect from "./lang-select";
+import MainBtn from "../main-btn";
 
 export default function Navbar() {
   const matches = useMediaQuery("(min-width: 64em)");
@@ -50,16 +51,7 @@ export default function Navbar() {
           )}
 
           <Group pr={50}>
-            <Button
-              variant="filled"
-              color="lime.4"
-              size="md"
-              radius="lg"
-              c="gray.9"
-              className={classes.startCwallet}
-            >
-              {t_start_button("main")}
-            </Button>
+            <MainBtn secType="start_button" />
 
             {matches ? (
               <Box className={classes.lang}>

@@ -16,20 +16,8 @@
     rgb(255, 255, 255) 114.4%
   );
 }
-.contentWrapper {
-  position: relative;
-  margin: 0px auto;
-  max-width: 1440px;
-  min-height: 710px;
-  width: 100%;
-  display: flex;
-  align-items: flex-start;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  position: relative;
-  z-index: 0;
-}
-/* .contentWrapper::before {
+
+.contentWrapper::before {
   position: absolute;
   content: "";
   height: 726px;
@@ -39,6 +27,7 @@
   top: -224px;
   animation: 4s linear 0s infinite normal none running leftXframes;
   z-index: 0;
+  filter: blur(100px);
 }
 .contentWrapper::after {
   position: absolute;
@@ -51,7 +40,8 @@
   background: rgba(21, 190, 119, 0.35);
   animation: 4s linear 0s infinite normal none running rightXframes;
   z-index: 1;
-} */
+  filter: blur(100px);
+}
 
 .content {
   width: min(100%, 1440px);

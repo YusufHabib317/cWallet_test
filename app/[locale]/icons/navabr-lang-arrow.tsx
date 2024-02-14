@@ -1,7 +1,7 @@
-export default function LangArrow() {
+export default function LangArrow({ className }: { className?: string }) {
   return (
     <svg
-      className="www-icon"
+      className={className}
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
       width="16"
