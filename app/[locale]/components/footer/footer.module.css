@@ -5,6 +5,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+.footerTop {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .top {
   display: flex;
   flex-direction: column;

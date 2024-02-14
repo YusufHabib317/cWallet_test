@@ -22,7 +22,7 @@ export default function TopSec() {
   };
 
   return (
-    <Box className={classes.footer}>
+    <Box className={classes.footerTop}>
       <Box className={classes.footerLeft}>
         <Box className={classes.footerLeftLogo}>
           <FooterLogo />
