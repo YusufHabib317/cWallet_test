@@ -150,4 +150,28 @@
     border-bottom: 1px dashed rgb(105, 105, 105);
     padding: 1.5625rem 0px;
   }
+  .leftSection,
+  .rightSection {
+    margin-top: 100px;
+  }
+  .animationSec {
+    flex-direction: column;
+  }
+  .animationSec .switchBox {
+    margin-top: 20px;
+    margin-bottom: -60px;
+  }
+  .switchWalletContent h4 {
+    font-size: 16px;
+  }
+  .switchWalletContent h1 {
+    font-size: 18px;
+  }
+  .switchWalletContent h2 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .switchWalletContent span {
+    font-size: 18px;
+  }
 }

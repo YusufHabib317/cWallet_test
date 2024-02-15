@@ -17,9 +17,10 @@
 .toolsContent {
   max-width: 1010px;
   margin: 30px auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 20px 30px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
 .toolItem {
@@ -71,11 +72,4 @@
   letter-spacing: -0.25px;
   text-transform: capitalize;
   color: rgb(103, 104, 104);
-}
-@media only screen and (max-width: 1024px) {
-  .tools-content {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    max-width: 23.4375rem;
-  }
 }

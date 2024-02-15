@@ -12,7 +12,7 @@ export default function FeedBack() {
         <Box className={classes.contentBox}>
           <Title order={1}>{t("title")}</Title>
 
-          <p>{t("sub")}</p>
+          <Box component="p">{t("sub")}</Box>
           <Button
             py={0}
             px={24}

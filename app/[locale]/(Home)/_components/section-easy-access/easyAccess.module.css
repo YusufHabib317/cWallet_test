@@ -97,4 +97,7 @@
     width: 50%;
     margin: 0 auto 20px;
   }
+  .accessItem p {
+    font-size: 15px;
+  }
 }

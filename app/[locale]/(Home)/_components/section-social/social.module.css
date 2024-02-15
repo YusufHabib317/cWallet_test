@@ -1,0 +1,52 @@
+.parent h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.03925px;
+  text-transform: capitalize;
+  color: rgb(0, 0, 0);
+  max-width: 850px;
+  margin: 0px auto 64px;
+}
+.parent h2 span {
+  color: rgb(171, 232, 57);
+  font-weight: 900;
+  font-size: 40px;
+}
+.link {
+  padding: 5px 10px;
+  transition: all 0.2s;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.link span {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.link:hover {
+  background-color: var(--mantine-color-gray-2);
+}
+.link.none {
+  cursor: default;
+  background-color: transparent;
+}
+.sweipParent {
+  width: 100%;
+}
+.sweipParent div {
+  width: 50%;
+}
+@media (max-width: 1024px) {
+  .sweipParent div {
+    flex-basis: 100%; /* Each child takes full width on smaller screens */
+  }
+}
+.swiper {
+  min-width: 300px;
+}

@@ -65,9 +65,9 @@ export default function SupportList() {
               <Box
                 component="span"
                 style={{
-                  width: "5px",
-                  height: "5px",
-                  margin: "0 5px 0 0",
+                  width: "3px",
+                  height: "3px",
+                  margin: "0 0px 0 0",
                 }}
               >
                 <Image src={message} alt="email" objectFit="cover" />

@@ -57,6 +57,7 @@ export default function Hero() {
                     src={hero_big}
                     alt="Easy access to a secure, convenient, and flexible crypto wallet"
                     className={classes.img}
+                    objectFit="cover"
                   />
                 </Box>
               </Box>

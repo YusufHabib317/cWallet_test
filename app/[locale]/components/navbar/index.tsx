@@ -18,18 +18,37 @@ import { useTranslations } from "next-intl";
 import classes from "./navbar.module.css";
 import LangSelect from "./lang-select";
 import MainBtn from "../main-btn";
+import { useEffect, useState } from "react";
 
 export default function Navbar() {
+  const [lastScrollTop, setLastScrollTop] = useState(0);
+  const [navbarVisible, setNavbarVisible] = useState(true);
+
+  const handleScroll = () => {
+    const currentScrollPos = window.pageYOffset;
+
+    setNavbarVisible(lastScrollTop > currentScrollPos || currentScrollPos < 10);
+
+    setLastScrollTop(currentScrollPos);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, false);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll, false);
+    };
+  }, [lastScrollTop]);
+
   const matches = useMediaQuery("(min-width: 64em)");
 
   const [opened, { open, close }] = useDisclosure(false);
 
   const t_main_routes = useTranslations("mainRoutes");
-  const t_start_button = useTranslations("start_button");
 
   return (
     <header>
-      <Box className={classes.header}>
+      <Box className={`${classes.header} ${!navbarVisible && classes.hidden}`}>
         <Group className={classes.headerWrap} justify="space-between">
           {matches ? <LogoRow /> : <LogoCol />}
 

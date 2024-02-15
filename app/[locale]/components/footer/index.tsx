@@ -10,7 +10,7 @@ export default function Footer() {
       <Box className={classes.top}>
         <TopSec />
       </Box>
-      <Box className={classes.bottom}>
+      <Box className={classes.container}>
         <BottomSec />
       </Box>
     </footer>

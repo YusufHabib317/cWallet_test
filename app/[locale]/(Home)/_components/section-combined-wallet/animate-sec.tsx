@@ -19,7 +19,7 @@ export default function AnimateSec() {
           title="Non-Custodial"
         />
       </Box>
-      <Box>
+      <Box className={`${classes.switchBox}`}>
         <Switch />
       </Box>
       <Box className={`${classes.rightSection} ${classes.animationItem}`}>

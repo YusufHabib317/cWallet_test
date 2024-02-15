@@ -8,6 +8,7 @@ import { footerSocial } from "../../constant/footer";
 import Image from "next/image";
 import { useState } from "react";
 import FooterList from "./footer-list";
+import DownloadBtns from "./download-btn";
 
 export default function TopSec() {
   const t = useTranslations("footer");
@@ -22,36 +23,39 @@ export default function TopSec() {
   };
 
   return (
-    <Box className={classes.footerTop}>
-      <Box className={classes.footerLeft}>
-        <Box className={classes.footerLeftLogo}>
-          <FooterLogo />
+    <>
+      <Box className={classes.footerTop}>
+        <Box className={classes.footerLeft}>
+          <Box className={classes.footerLeftLogo}>
+            <FooterLogo />
+          </Box>
+
+          <Box component="p" className={classes.text} c={"gray.2"}>
+            {t("desc")}
+          </Box>
+          <Flex className={classes.platForm} w={"100%"} gap={18} mt={20}>
+            {footerSocial.map((item, idx) => {
+              const { icon, title, hex, id } = item;
+              return (
+                <Box
+                  key={idx}
+                  className={classes.imgParent}
+                  onMouseEnter={() => handleMouseEnter(id)}
+                  onMouseLeave={handleMouseLeave}
+                  style={{
+                    backgroundColor: id === hoverId ? hex : "",
+                  }}
+                >
+                  <Image src={icon} alt={title} />
+                </Box>
+              );
+            })}
+          </Flex>
         </Box>
 
-        <Box component="p" className={classes.text}>
-          {t("desc")}
-        </Box>
-        <Flex className={classes.platForm} w={"100%"} gap={18} mt={20}>
-          {footerSocial.map((item, idx) => {
-            const { icon, title, hex, id } = item;
-            return (
-              <Box
-                key={idx}
-                className={classes.imgParent}
-                onMouseEnter={() => handleMouseEnter(id)}
-                onMouseLeave={handleMouseLeave}
-                style={{
-                  backgroundColor: id === hoverId ? hex : "",
-                }}
-              >
-                <Image src={icon} alt={title} />
-              </Box>
-            );
-          })}
-        </Flex>
+        <FooterList />
       </Box>
-
-      <FooterList />
-    </Box>
+      <DownloadBtns />
+    </>
   );
 }

@@ -7,6 +7,14 @@
   right: 0px;
   z-index: 99;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 12px 0px;
+  transition: top 0.3s;
+}
+.hidden {
+  top: -100px; /* Adjust this value to the negative height of your navbar */
+}
+
+.active {
+  top: 0;
 }
 .headerWrap {
   height: 100%;

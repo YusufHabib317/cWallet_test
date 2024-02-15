@@ -8,3 +8,32 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+.swipParent {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.swipParent .arrow.arrow-left {
+  right: -60%;
+}
+.swipParent .arrow.arrow-right {
+  right: -40%;
+}
+.rotate_-90 {
+  transform: rotate(-90deg);
+}
+.rotate_90 {
+  transform: rotate(90deg);
+}

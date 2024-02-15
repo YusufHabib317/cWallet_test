@@ -1,5 +1,5 @@
 .parentWrapper {
-  padding: 80px 16px;
+  padding: 100px 16px;
   text-align: center;
 }
 .title {
@@ -51,5 +51,11 @@
   .itemTitle {
     font-size: 1rem;
     line-height: 2rem;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .subTitle {
+    font-size: 15px;
   }
 }

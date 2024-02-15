@@ -1,4 +1,5 @@
 "use client";
+import classes from "./faq.module.css";
 
 import LangArrow from "@/app/[locale]/icons/navabr-lang-arrow";
 import { Accordion, ActionIcon, Box } from "@mantine/core";
@@ -48,7 +49,10 @@ export default function FaqAccordion() {
     );
   });
   return (
-    <Accordion variant="separated" chevron={<LangArrow />}>
+    <Accordion
+      variant="separated"
+      chevron={<LangArrow className={classes.rotate_90} />}
+    >
       {items}
     </Accordion>
   );

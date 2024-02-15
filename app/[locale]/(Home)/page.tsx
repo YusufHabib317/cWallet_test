@@ -8,6 +8,7 @@ import BuiltIn from "./_components/section-built-in";
 import CwalletTool from "./_components/cwallet-tool";
 import FeedBack from "./_components/feed-back";
 import Faq from "./_components/faq";
+import Social from "./_components/section-social";
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
       <BlockChain />
       <BuiltIn />
       <CwalletTool />
+      <Social />
       <FeedBack />
       <Faq />
     </>

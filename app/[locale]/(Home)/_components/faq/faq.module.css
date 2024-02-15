@@ -22,3 +22,6 @@
 .contentBox {
   width: 100%;
 }
+.rotate_90 {
+  transform: rotate(-90deg);
+}

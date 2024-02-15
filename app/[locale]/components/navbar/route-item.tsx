@@ -50,7 +50,7 @@ export default function RouteItem(props: RouteT) {
                   <Box component="h1" className={classes.contentBox_Title}>
                     {t_sub_routes(title)}
                   </Box>
-                  <Box className={classes.contentBox_description}>
+                  <Box className={classes.contentBox_description} mt={2}>
                     {description}
                   </Box>
                 </Box>

@@ -53,7 +53,7 @@ export default function ProductList() {
       </Box>
 
       <Box className="footer-child-item">
-        <Box mt={32} mb={-10}>
+        <Box mt={32} mb={-10} className={classes.subTitle}>
           Bots
         </Box>
         <Stack className={classes.subLinksList} gap={0}>
