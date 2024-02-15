@@ -14,7 +14,12 @@ const DynamicNavbar = dynamic(
     ssr: false,
   }
 );
-const DynamicFooter = dynamic(() => import("@/app/[locale]/components/footer"));
+const DynamicFooter = dynamic(
+  () => import("@/app/[locale]/components/footer"),
+  {
+    ssr: false,
+  }
+);
 
 export const metadata: Metadata = {
   title:
