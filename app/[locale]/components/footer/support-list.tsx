@@ -67,7 +67,7 @@ export default function SupportList() {
                 style={{
                   width: "3px",
                   height: "3px",
-                  margin: "0 0px 0 0",
+                  margin: "0 5px 0 0",
                 }}
               >
                 <Image src={message} alt="email" objectFit="cover" />
