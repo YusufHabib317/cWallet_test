@@ -2,20 +2,23 @@ import type { Metadata } from "next";
 import { ColorSchemeScript, MantineProvider } from "@mantine/core";
 import "./globals.css";
 import "@mantine/core/styles.css";
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
-import {
-  NextIntlClientProvider,
-  useLocale,
-  useMessages,
-  useTranslations,
-} from "next-intl";
+
+import { NextIntlClientProvider, useLocale, useMessages } from "next-intl";
 import { notFound } from "next/navigation";
+
+import dynamic from "next/dynamic";
+
+const DynamicNavbar = dynamic(
+  () => import("@/app/[locale]/components/navbar"),
+  {
+    ssr: false,
+  }
+);
+const DynamicFooter = dynamic(() => import("@/app/[locale]/components/footer"));
 
 export const metadata: Metadata = {
   title:
     "Cwallet - Simple, Secure, Fast &amp; Flexible Crypto Wallet for All Your Needs.",
-  description: "",
 };
 
 interface RootLayoutProps {
@@ -29,9 +32,6 @@ const LocaleLayout: React.FC<RootLayoutProps> = ({ children, params }) => {
   const local = useLocale();
   const messages = useMessages();
 
-  // const t = useTranslations("Routes");
-  // console.log("t", t("wallets.title"));
-
   if (params.locale !== local) {
     return notFound();
   }
@@ -44,9 +44,9 @@ const LocaleLayout: React.FC<RootLayoutProps> = ({ children, params }) => {
       <body>
         <NextIntlClientProvider messages={messages}>
           <MantineProvider>
-            <Navbar />
+            <DynamicNavbar />
             {children}
-            <Footer />
+            <DynamicFooter />
           </MantineProvider>
         </NextIntlClientProvider>
       </body>
